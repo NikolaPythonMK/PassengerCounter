@@ -70,4 +70,16 @@ h1, button, #count-el{
         display: flex;
         justify-content: space-around;
     }
+    
+    h1{
+        flex-basis: 30%;
+    }
+    
+    #count-el{
+        flex-basis: 40%;
+    }
+    
+    #increment-btn{
+        flex-basis: 30%
+    }
 }
