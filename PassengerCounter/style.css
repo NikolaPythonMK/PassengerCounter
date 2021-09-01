@@ -1,0 +1,49 @@
+:root{
+    --font-clr: rgba(0, 0, 0, 0.76);
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+
+    border: 1px solid gray;
+    padding: 2em;
+    box-shadow: 0px 0px 5px 0px gray;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+#increment-btn{
+    width: 15em;
+    padding: 1em;
+    border: 0;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px lightskyblue;
+}
+
+#increment-btn:hover{
+    box-shadow: 0px 0px 30px 5px lightskyblue;
+    transform: scale(1.1);
+}
+
+#count-el{
+    font-size: 3.3rem;
+}
+
+h1, button, #count-el{
+    color: var(--font-clr);
+}
