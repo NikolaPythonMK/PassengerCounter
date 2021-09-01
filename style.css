@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+html{
+   -webkit-fill-available;
+}
+
+
 html, body{
     margin: 0;
     padding: 0;
@@ -20,7 +25,8 @@ body{
     display: grid;
     justify-content: center;
     align-content: center;
-    height: calc(100vh - 3px);
+    height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 .container{
@@ -52,5 +58,5 @@ body{
 }
 
 h1, button, #count-el{
-    color: red;
+    color: var(--font-clr);
 }
