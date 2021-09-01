@@ -6,14 +6,11 @@
     box-sizing: border-box;
 }
 
-html{
-   -webkit-fill-available;
-}
-
-
 html, body{
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 html{
@@ -25,8 +22,7 @@ body{
     display: grid;
     justify-content: center;
     align-content: center;
-    height: 100vh;
-    min-height: -webkit-fill-available;
+    height: 100%;
 }
 
 .container{
