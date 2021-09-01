@@ -2,7 +2,7 @@
     --font-clr: rgba(0, 0, 0, 0.76);
 }
 
-*, *::before, *::after{
+*{
     box-sizing: border-box;
 }
 
