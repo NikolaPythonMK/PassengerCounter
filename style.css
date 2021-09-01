@@ -65,4 +65,9 @@ h1, button, #count-el{
     #count-el{
         font-size: 1.5rem;
     }
+    
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
 }
