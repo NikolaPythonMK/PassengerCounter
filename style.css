@@ -20,7 +20,7 @@ body{
     display: grid;
     justify-content: center;
     align-content: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 .container{
@@ -54,3 +54,10 @@ body{
 h1, button, #count-el{
     color: var(--font-crl);
 }
+
+@media (max-width: 800px){
+    body{
+        height: 90vh;
+    }
+}
+
