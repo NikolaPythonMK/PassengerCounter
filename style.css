@@ -16,13 +16,12 @@ html{
 }
 
 body{
-    margin: 0;
-    padding: 0;
     background-color: #eee;
     display: grid;
     justify-content: center;
     align-content: center;
     height: 100vh;
+    border: 3px;
 }
 
 .container{
@@ -54,5 +53,5 @@ body{
 }
 
 h1, button, #count-el{
-    color: var(--font-clr);
+    color: red;
 }
