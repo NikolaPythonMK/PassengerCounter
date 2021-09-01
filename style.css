@@ -61,7 +61,7 @@ h1, button, #count-el{
     }
 }
 
-@media (max-width: 480px){
+@media (orientation: landsape) and (max-width: 800px){
     .container{
         display: flex;
         justify-content: space-around;
