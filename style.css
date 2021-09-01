@@ -20,8 +20,7 @@ body{
     display: grid;
     justify-content: center;
     align-content: center;
-    height: 100vh;
-    border: 3px;
+    height: calc(100vh - 3px);
 }
 
 .container{
