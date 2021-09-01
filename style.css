@@ -52,5 +52,5 @@ body{
 }
 
 h1, button, #count-el{
-    color: blue;
+    color: var(--font-crl);
 }
