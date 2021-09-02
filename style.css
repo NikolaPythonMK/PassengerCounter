@@ -83,6 +83,7 @@ h1, button, #count-el{
     max-height: 3em;
     overflow-y: scroll;
     margin: 1.5em auto;
+    padding-top: 1em;
 }
 
 @media (max-width: 800px){
