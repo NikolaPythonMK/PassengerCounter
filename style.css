@@ -92,7 +92,7 @@ h1, button, #count-el{
     }
 }
 
-@media (orientation: landscape){
+/* @media (orientation: landscape){
     .container{
         display: flex;
         justify-content: space-between;
@@ -123,4 +123,4 @@ h1, button, #count-el{
     #count-el{
         margin-bottom: 0;
     }
-}
+} */
