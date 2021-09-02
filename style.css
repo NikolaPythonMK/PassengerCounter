@@ -112,5 +112,6 @@ h1, button, #count-el{
     
     #save-entries{
         flex-basis: 25%
+        max-width: 5em;
     }
 }
